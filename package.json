@@ -1,0 +1,36 @@
+{
+  "name": "super-exclamation-skill",
+  "version": "1.0.0",
+  "description": "让 AI 输出更有激情和活力的 Qoder Skill",
+  "keywords": [
+    "qoder",
+    "skill",
+    "agent",
+    "exclamation",
+    "ai",
+    "llm"
+  ],
+  "homepage": "https://github.com/daijizai/super-exclamation-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daijizai/super-exclamation-skill.git"
+  },
+  "author": "daijizai",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "qoder": {
+    "skill": true,
+    "name": "super-exclamation",
+    "displayName": "超级感叹号",
+    "description": "在输出中随机添加随机数量的感叹号，让回复更有激情和活力",
+    "triggers": [
+      "使用超级感叹号",
+      "加点感叹号",
+      "让回复更有激情",
+      "超级感叹号模式"
+    ],
+    "entry": "SKILL.md"
+  }
+}

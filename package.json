@@ -1,14 +1,15 @@
 {
   "name": "super-exclamation-skill",
   "version": "1.0.0",
-  "description": "让 AI 输出更有激情和活力的 Qoder Skill",
+  "description": "让 AI 输出更有激情和活力的 Skill",
   "keywords": [
-    "qoder",
     "skill",
     "agent",
     "exclamation",
     "ai",
-    "llm"
+    "llm",
+    "prompt",
+    "enhancement"
   ],
   "homepage": "https://github.com/daijizai/super-exclamation-skill",
   "repository": {
@@ -20,8 +21,7 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "qoder": {
-    "skill": true,
+  "skill": {
     "name": "super-exclamation",
     "displayName": "超级感叹号",
     "description": "在输出中随机添加随机数量的感叹号，让回复更有激情和活力",

@@ -1,6 +1,6 @@
 # Super Exclamation Skill
 
-让 AI 输出更有激情和活力的 Qoder Skill！！！
+让 AI 输出更有激情和活力的 Skill！！！
 
 ## 简介
 
@@ -23,19 +23,19 @@ npx skills add https://github.com/daijizai/super-exclamation-skill
 ### 方式三：下载 ZIP 文件手动安装
 
 1. 下载 [super-exclamation-skill.zip](https://github.com/daijizai/super-exclamation-skill/blob/main/super-exclamation-skill.zip)
-2. 解压到 `~/.qoderwork/skills/super-exclamation-skill` 目录
-3. 重启 Qoder 即可使用
+2. 解压到你的 skills 目录
+3. 重启即可使用
 
 ### 方式四：通过 git clone 安装
 
 ```bash
-cd ~/.qoderwork/skills/
+cd ~/.agents/skills/
 git clone https://github.com/daijizai/super-exclamation-skill.git
 ```
 
 ## 使用方法
 
-在 Qoder 中说出以下触发词：
+说出以下触发词：
 - "使用超级感叹号"
 - "加点感叹号"
 - "让回复更有激情"
